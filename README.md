@@ -1,5 +1,7 @@
 # Linux Security Auditor
 
+[![Quality and Linux package](https://github.com/shomatoff/linux-security-auditor/actions/workflows/ci.yml/badge.svg)](https://github.com/shomatoff/linux-security-auditor/actions/workflows/ci.yml)
+
 **Understand the security settings you can actually verify on a Linux desktop.** Linux Security Auditor is a local, read-only PySide6 application for a bounded review of Ubuntu and Debian configuration. It separates confirmed findings from unavailable evidence, explains each check, and exports offline reports.
 
 **Languages:** [English](docs/README_EN.md) · [O‘zbekcha](docs/README_UZ.md) · [Русский](docs/README_RU.md)
@@ -59,6 +61,6 @@ This is a configuration assessment, **not** a penetration test, CIS certificatio
 
 ## Automation and release
 
-[GitHub Actions workflow](.github/workflows/ci.yml) is configured for lint and tests on Ubuntu 22.04/24.04, a Linux package on Ubuntu 24.04, uploaded build artifacts, and release attachment for new `v*` tags. **Remote CI and releases are pending publication**; local verification details are in [testing notes](docs/TESTING.md).
+[GitHub Actions workflow](.github/workflows/ci.yml) passed lint and tests on Ubuntu 22.04/24.04, built and smoke-tested a Linux package on Ubuntu 24.04, and uploaded an artifact in the [first verified run](https://github.com/shomatoff/linux-security-auditor/actions/runs/38293759099). Release attachment is configured for a new `v*` tag; no release has been created. Local verification details are in [testing notes](docs/TESTING.md).
 
 Licensed under [MIT](LICENSE).
