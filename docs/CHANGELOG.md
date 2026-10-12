@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## v1.0.0 — 2026-10-13
 
 - Initial read-only local Linux configuration assessment with 13 rules.
 - PySide6 dashboard, findings, category drilldowns, report preview, settings and UZ/RU/EN language persistence.

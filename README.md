@@ -6,6 +6,8 @@
 
 **Languages:** [English](docs/README_EN.md) · [O‘zbekcha](docs/README_UZ.md) · [Русский](docs/README_RU.md)
 
+**Download:** [Linux Security Auditor v1.0.0](https://github.com/shomatoff/linux-security-auditor/releases/tag/v1.0.0) · [Linux x64 archive](https://github.com/shomatoff/linux-security-auditor/releases/download/v1.0.0/Linux-Security-Auditor-Linux-x64.tar.gz) · [SHA256SUMS](https://github.com/shomatoff/linux-security-auditor/releases/download/v1.0.0/SHA256SUMS)
+
 ![Real live local audit, English](docs/screenshots/dashboard-en.png)
 
 > **Screenshot provenance:** all screenshots below were captured from the running PySide6 application after a real nonprivileged audit on Ubuntu 24.04. They contain no synthetic findings. The visible result is specific to that host and is **not** a security verdict for other machines.
@@ -61,6 +63,6 @@ This is a configuration assessment, **not** a penetration test, CIS certificatio
 
 ## Automation and release
 
-[GitHub Actions workflow](.github/workflows/ci.yml) passed lint and tests on Ubuntu 22.04/24.04, built and smoke-tested a Linux package on Ubuntu 24.04, and uploaded an artifact in the [first verified run](https://github.com/shomatoff/linux-security-auditor/actions/runs/38293759099). Release attachment is configured for a new `v*` tag; no release has been created. Local verification details are in [testing notes](docs/TESTING.md).
+[GitHub Actions workflow](.github/workflows/ci.yml) passed lint and tests on Ubuntu 22.04/24.04, built and smoke-tested a Linux package on Ubuntu 24.04, and published the checked archive in the [v1.0.0 release run](https://github.com/shomatoff/linux-security-auditor/actions/runs/38296110751). The published files were downloaded and their checksum verified. Local verification details are in [testing notes](docs/TESTING.md).
 
 Licensed under [MIT](LICENSE).
